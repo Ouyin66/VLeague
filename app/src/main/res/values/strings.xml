@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VLeague</string>
+    <string name="title_activity_news_details">Activity_News_Details</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    <String name="title_home">Trang ch</String>-->
+    <!--    <String name="title_news">Tin tức</String>-->
+    <!--    <String name="title_order">Mua vé</String>-->
+    <!--    <String name="title_calender">Lịch thi đấu</String>-->
+    <!--    <String name="title_user">Trang cá nhân</String>-->
+</resources>

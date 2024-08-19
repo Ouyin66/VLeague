@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_vleague"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VLeague"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.Details.Activity_Details_Admin_Order"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity_Order_Success"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity_List_Bank"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity_Order_History"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Details.Activity_Details_Admin_Match"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddnEdit.Activity_Edit_Customer"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Details.Activity_Details_Admin_News"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Details.Activity_Details_Order"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Details.Activity_Details_Customer"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.Activity_Manage_Team"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddnEdit.Activity_Edit_Team"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddnEdit.Activity_Add_Team"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddnEdit.Activity_Edit_News"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddnEdit.Activity_Edit_Match"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddnEdit.Activity_Edit_Location"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddnEdit.Activity_Edit_Credit_Card"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddnEdit.Activity_Edit_Personal"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddnEdit.Activity_Add_Credit_Card"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddnEdit.Activity_Add_Location"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddnEdit.Activity_Add_Match"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddnEdit.Activity_Add_News"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.Activity_Manage_Credit_Card"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.Activity_Manage_Location"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.Activity_Manage_Ticket"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.Activity_Manage_Match"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.Activity_Manage_News"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.Activity_Manage_Customer"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Details.Activity_Details_Match"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Details.Activity_Details_News"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity_Bank_Link"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity_SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity_Confirm_Ticket"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.Activity_Manage"
+            android:exported="false" />
+    </application>
+
+</manifest>
